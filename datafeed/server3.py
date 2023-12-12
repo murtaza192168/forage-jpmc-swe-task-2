@@ -23,7 +23,7 @@ from random import normalvariate, random
 from datetime import timedelta, datetime
 
 import csv
-import dateutil.parser
+# import dateutil.parser
 import os.path
 
 import operator
@@ -34,6 +34,7 @@ import threading
 # from BaseHTTPServer import BaseHTTPRequestHandler,HTTPServer
 import http.server
 from socketserver import ThreadingMixIn
+import dateutil.parser
 
 ################################################################################
 #
